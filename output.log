@@ -1,0 +1,25 @@
+Linux vara-sys21 3.10.0-1160.49.1.el7.x86_64 #1 SMP Tue Nov 30 15:51:32 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+Filesystem                       Size  Used Avail Use% Mounted on
+devtmpfs                         471M     0  471M   0% /dev
+tmpfs                            487M     0  487M   0% /dev/shm
+tmpfs                            487M  8.6M  478M   2% /run
+tmpfs                            487M     0  487M   0% /sys/fs/cgroup
+/dev/sda2                         25G  4.4G   21G  18% /
+/dev/sda5                        5.0G   33M  5.0G   1% /opt
+/dev/sda3                        5.0G   39M  5.0G   1% /home
+/dev/sda1                       1014M  207M  808M  21% /boot
+/dev/mapper/vgansible-lvansible  9.1G   37M  8.5G   1% /scripts/ansible
+/dev/sda8                        5.0G   33M  5.0G   1% /tmp
+/dev/sda6                        5.0G  1.2G  3.9G  23% /var
+tmpfs                             98M     0   98M   0% /run/user/0
+tmpfs                             98M   36K   98M   1% /run/user/1000
+/dev/sr0                         3.7G  3.7G     0 100% /run/media/vara/RHEL-6.10 Server.x86_64
+Wed Apr 27 23:57:06 IST 2022
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         10.10.0.1       0.0.0.0         UG        0 0          0 ens33
+10.10.0.0       0.0.0.0         255.255.0.0     U         0 0          0 ens33
+172.17.0.0      0.0.0.0         255.255.0.0     U         0 0          0 docker0
+192.168.122.0   0.0.0.0         255.255.255.0   U         0 0          0 virbr0
+ 23:57:06 up 25 min,  2 users,  load average: 0.00, 0.07, 0.37
+prechecks execution completed
